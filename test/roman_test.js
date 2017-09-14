@@ -1,7 +1,5 @@
-import { chai } from 'chai';
-import { roman } from 'src/roman';
-
-var assert = chai.assert;
+import { assert } from 'chai';
+import { name } from '../src/roman';
 
 
 describe('confirm setup', function() {
@@ -22,7 +20,7 @@ describe('confirm file', function() {
     it('should have a name', function() {
 
 
-        assert.equal(roman.name, "chris");
+        assert.equal(name, "chris");
     });
 
 });

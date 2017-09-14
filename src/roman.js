@@ -1,3 +1,1 @@
-let name = "chris";
-
-export name;
+export var name = "chris";
