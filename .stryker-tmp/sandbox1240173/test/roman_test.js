@@ -31,11 +31,7 @@ describe('confirm setup', function() {
 
 
 describe('confirm file', function() {
-    // Further code for tests goes here
-
     it('should have a name', function() {
-
-
         assert.equal(name, "chris");
     });
 
